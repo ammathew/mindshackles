@@ -14,10 +14,12 @@ title: Features
          {% if site.paginate %}
               {% include pagination.html%}
          {% endif %}
-         {% else %}
-              {% for post in site.posts %}
-    
-              {% endfor %}
+    {% else %}
+         {% for post in site.posts %}
+             {% if post.section == 'feature' %}
+                  {% include blog-post.html %}
+              {% endif %}
+          {% endfor %}
     {% endif %}
 </section>
 

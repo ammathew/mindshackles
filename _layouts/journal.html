@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Features
+title: Journal
 ---
 {% include header.html %}
 
@@ -14,11 +14,14 @@ title: Features
          {% if site.paginate %}
               {% include pagination.html%}
          {% endif %}
-         {% else %}
-              {% for post in site.posts %}
-    
-              {% endfor %}
+    {% else %}
+         {% for post in site.posts %}
+             {% if post.section == 'journal' %}
+                  {% include blog-post.html %}
+              {% endif %}
+          {% endfor %}
     {% endif %}
 </section>
 
 {% include footer.html %}
+

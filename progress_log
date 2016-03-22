@@ -1,0 +1,44 @@
+* TODO clean up display
+** DONE relearn how to rerender site
+bundle install
+npm install
+gulp
+
+*** dependency error
+added export GEM_PATH=/home2/thezeith/ruby/gems/gems, still didnt work
+`block in materialize': Could not find RedCloth-4.2.9 in any of the sources (Bundler::GemNotFound)
+*** bundle install seems to have installed new dependecies -- why does this list seem longer now?
+** DONE site now looks messed up -- why?
+** DONE reinstall site?
+
+** DONE spec out new blog structure? all part of one blog but one page for features and one page for journal
+** DONE How do blogs get categorized
+
+** DONE what does site.paginate do?
+** DONE make 3 section on front page nav 
+
+** DONE how to add '/journal' pathpart? 
+** DONE can features and journal use the same include?
+
+*** TODO why does page look messed up (no header..no css? ) when make 2 differen layouts for features and for journal?
+**** TODO features.html for example looks like the templating doesnt make se
+**** DONE error
+  Error: could not read file /home2/thezeith/public_html/mindshackles/_posts/2016-03-16-no-title.markdown: (<unknown>): could not find expected ':' while scanning a simple key at line 6 column 1
+
+
+**** DONE why id mindshackles.com/features not loading?
+could find layout file (typo)  
+**** TODO change css
+***** why are styles not changing with change is css?
+hand to make changes in main.css in the _includes directory, not in assets -- why are there 2 main.css files? 
+
+* DONE how to bring org mode item above or below another org mode item?
+* TODO Look up how to execute code from an org-mode notebook
+* TODO should I have multiple blogs? should I leave room for multiple blogs? what would be the benefit of that?
+* TODO change paths without changing _config_dev.yml?
+* TODO what if I wanted a list of commonly used categories and wanted to nav by them?
+* TODO what does paginator.posts do?
+* TODO should layout name remain 'blog' ?
+* TODO contribute to jekyll by fixing bug(?) where posts with empty titles break site?
+
+* gitignore files ending in ~?

@@ -1,0 +1,12 @@
+---
+title: "In my heart/out of my mind" 
+layout: post
+date: 2016-02-24 22:48
+section: feature
+tag:
+- journal
+
+blog: true
+---
+
+"you're always in my heart". But i'm not always in my heart, in the same way I'm often out of my mind. You too. 
